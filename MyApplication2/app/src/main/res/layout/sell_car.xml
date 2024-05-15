@@ -1,0 +1,325 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF">
+
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="46dp"
+        android:layout_height="39dp"
+        app:srcCompat="@drawable/maps_pin_black_icon"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="34dp" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="46dp"
+        android:layout_height="39dp"
+        app:srcCompat="@drawable/user_solid"
+        tools:layout_editor_absoluteX="345dp"
+        tools:layout_editor_absoluteY="34dp" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="20dp"
+        android:background="@android:color/darker_gray"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/imageView5" />
+
+    <ScrollView
+        android:layout_width="409dp"
+        android:layout_height="1637dp"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="93dp">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="900dp"
+            android:background="#FFFFFF"
+            android:fadingEdge="vertical">
+
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Sell your car"
+                android:textSize="34sp"
+                android:textStyle="bold"
+                tools:layout_editor_absoluteX="110dp"
+                tools:layout_editor_absoluteY="16dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Add your car details"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                tools:layout_editor_absoluteX="110dp"
+                tools:layout_editor_absoluteY="71dp" />
+
+            <TextView
+                android:id="@+id/textView18"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="car model"
+                tools:layout_editor_absoluteX="100dp"
+                tools:layout_editor_absoluteY="132dp" />
+
+            <EditText
+                android:id="@+id/editBrand"
+                android:layout_width="wrap_content"
+                android:layout_height="45dp"
+                android:background="@drawable/red_round_rectangle"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:singleLine="false"
+                android:text="   Brand Name*"
+                tools:layout_editor_absoluteX="100dp"
+                tools:layout_editor_absoluteY="151dp" />
+
+            <TextView
+                android:id="@+id/textView17"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="car model"
+                tools:layout_editor_absoluteX="100dp"
+                tools:layout_editor_absoluteY="215dp" />
+
+            <EditText
+                android:id="@+id/editModel"
+                android:layout_width="wrap_content"
+                android:layout_height="45dp"
+                android:background="@drawable/red_round_rectangle"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text="   Model"
+                tools:layout_editor_absoluteX="100dp"
+                tools:layout_editor_absoluteY="235dp" />
+
+            <TextView
+                android:id="@+id/textView16"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="fuel type"
+                tools:layout_editor_absoluteX="100dp"
+                tools:layout_editor_absoluteY="311dp" />
+
+            <AutoCompleteTextView
+                android:id="@+id/editFuel"
+                android:layout_width="wrap_content"
+                android:layout_height="54dp"
+                android:background="@drawable/red_round_rectangle"
+                android:hint="Fuel Type"
+                android:text="fuel type"
+                tools:layout_editor_absoluteX="100dp"
+                tools:layout_editor_absoluteY="330dp" />
+
+            <TextView
+                android:id="@+id/textView19"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Insurance validity till"
+                tools:layout_editor_absoluteX="104dp"
+                tools:layout_editor_absoluteY="869dp" />
+
+            <TextView
+                android:id="@+id/textView15"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="year of registration"
+                tools:layout_editor_absoluteX="100dp"
+                tools:layout_editor_absoluteY="415dp" />
+
+            <EditText
+                android:id="@+id/editTextDate"
+                android:layout_width="wrap_content"
+                android:layout_height="54dp"
+                android:background="@drawable/red_round_rectangle"
+                android:ems="10"
+                android:inputType="date"
+                tools:layout_editor_absoluteX="100dp"
+                tools:layout_editor_absoluteY="888dp" />
+
+            <TextView
+                android:id="@+id/textView20"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Your details"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                tools:layout_editor_absoluteX="104dp"
+                tools:layout_editor_absoluteY="973dp" />
+
+            <EditText
+                android:id="@+id/editYear"
+                android:layout_width="wrap_content"
+                android:layout_height="54dp"
+                android:background="@drawable/red_round_rectangle"
+                android:ems="10"
+                android:inputType="number"
+                tools:layout_editor_absoluteX="100dp"
+                tools:layout_editor_absoluteY="435dp" />
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Set price"
+                tools:layout_editor_absoluteX="100dp"
+                tools:layout_editor_absoluteY="509dp" />
+
+            <EditText
+                android:id="@+id/editPrice"
+                android:layout_width="wrap_content"
+                android:layout_height="54dp"
+                android:background="@drawable/red_round_rectangle"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text="   price"
+                tools:layout_editor_absoluteX="100dp"
+                tools:layout_editor_absoluteY="528dp" />
+
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Add photos"
+                tools:layout_editor_absoluteX="100dp"
+                tools:layout_editor_absoluteY="603dp" />
+
+            <ImageView
+                android:id="@+id/imageView6"
+                android:layout_width="46dp"
+                android:layout_height="46dp"
+                app:srcCompat="@drawable/add_image_photo_icon"
+                tools:layout_editor_absoluteX="108dp"
+                tools:layout_editor_absoluteY="621dp" />
+
+            <TextView
+                android:id="@+id/textView13"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Car description"
+                tools:layout_editor_absoluteX="100dp"
+                tools:layout_editor_absoluteY="683dp" />
+
+            <EditText
+                android:id="@+id/editTextTextPersonName5"
+                android:layout_width="wrap_content"
+                android:layout_height="54dp"
+                android:background="@drawable/red_round_rectangle"
+                android:ems="10"
+                android:inputType="textPersonName"
+                tools:layout_editor_absoluteX="100dp"
+                tools:layout_editor_absoluteY="701dp" />
+
+            <TextView
+                android:id="@+id/textView14"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="kms driven"
+                tools:layout_editor_absoluteX="100dp"
+                tools:layout_editor_absoluteY="779dp" />
+
+            <EditText
+                android:id="@+id/editKms"
+                android:layout_width="wrap_content"
+                android:layout_height="54dp"
+                android:background="@drawable/red_round_rectangle"
+                android:ems="10"
+                android:inputType="number"
+                tools:layout_editor_absoluteX="100dp"
+                tools:layout_editor_absoluteY="797dp" />
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Location"
+                tools:layout_editor_absoluteX="100dp"
+                tools:layout_editor_absoluteY="1022dp" />
+
+            <AutoCompleteTextView
+                android:id="@+id/autoCompleteTextView2"
+                android:layout_width="wrap_content"
+                android:layout_height="54dp"
+                android:background="@drawable/red_round_rectangle"
+                android:text="AutoCompleteTextView"
+                tools:layout_editor_absoluteX="100dp"
+                tools:layout_editor_absoluteY="1041dp" />
+
+            <TextView
+                android:id="@+id/textView21"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Name"
+                tools:layout_editor_absoluteX="100dp"
+                tools:layout_editor_absoluteY="1106dp" />
+
+            <EditText
+                android:id="@+id/editName"
+                android:layout_width="wrap_content"
+                android:layout_height="54dp"
+                android:background="@drawable/red_round_rectangle"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text="   Name"
+                tools:layout_editor_absoluteX="100dp"
+                tools:layout_editor_absoluteY="1125dp" />
+
+            <EditText
+                android:id="@+id/editEmail"
+                android:layout_width="wrap_content"
+                android:layout_height="54dp"
+                android:background="@drawable/red_round_rectangle"
+                android:ems="10"
+                android:inputType="textEmailAddress"
+                tools:layout_editor_absoluteX="99dp"
+                tools:layout_editor_absoluteY="1219dp"
+                tools:text="    e-mail" />
+
+            <TextView
+                android:id="@+id/textView22"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="E-mail"
+                tools:layout_editor_absoluteX="104dp"
+                tools:layout_editor_absoluteY="1200dp" />
+
+            <EditText
+                android:id="@+id/editPhone"
+                android:layout_width="wrap_content"
+                android:layout_height="54dp"
+                android:background="@drawable/red_round_rectangle"
+                android:ems="10"
+                android:inputType="phone"
+                tools:layout_editor_absoluteX="99dp"
+                tools:layout_editor_absoluteY="1311dp"
+                tools:text="   phone" />
+
+            <TextView
+                android:id="@+id/textView23"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="phone"
+                tools:layout_editor_absoluteX="100dp"
+                tools:layout_editor_absoluteY="1291dp" />
+
+            <Button
+                android:id="@+id/postbutton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Post Ad"
+                tools:layout_editor_absoluteX="157dp"
+                tools:layout_editor_absoluteY="1390dp" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
